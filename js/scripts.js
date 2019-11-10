@@ -1,5 +1,6 @@
 import $ from 'jquery';
 import Tesseract from 'tesseract.js';
+import { createWorker } from 'tesseract.js';
 
 $(document).ready(() => {
     let acceptBtn = $('#accept-terms');
@@ -49,16 +50,27 @@ $(document).ready(() => {
             output.src = URL.createObjectURL(file);
         }
         console.log(URL.createObjectURL(file));
-        
 
-        Tesseract.recognize(
-            URL.createObjectURL(file),
-            'eng+heb',
-            { logger: m => console.log(m.progress) }
-        ).then(({ data: { text } }) => {
-            $('#res-text').text(text);
-            console.log(text);
-        })
+        const worker = createWorker();
+
+        (async () => {
+        await worker.load();
+        await worker.loadLanguage('eng+heb');
+        await worker.initialize('eng');
+        const { data: { text } } = await worker.recognize(URL.createObjectURL(file));
+        console.log(text);
+        $('#res-text').text(text);
+        await worker.terminate();
+        })();
+
+        // Tesseract.recognize(
+        //     URL.createObjectURL(file),
+        //     'eng+heb',
+        //     { logger: m => console.log(m.progress) }
+        // ).then(({ data: { text } }) => {
+        //     $('#res-text').text(text);
+        //     console.log(text);
+        // })
     }
 
     $.getJSON("pm_migration.json", function(json) {
