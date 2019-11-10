@@ -1,0 +1,41 @@
+{
+  "name": "fluentlv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulpwatch": "gulp watch",
+    "gulpstyles": "gulp styles",
+    "gulpscripts": "gulp scripts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "7.0.0-beta.46",
+    "autoprefixer": "8.4.1",
+    "babel-loader": "^8.0.0-beta",
+    "browser-sync": "^2.26.5",
+    "gulp": "3.9.1",
+    "gulp-coffee": "latest",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest",
+    "gulp-postcss": "7.0.1",
+    "gulp-sass": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest",
+    "postcss-color-function": "4.0.1",
+    "postcss-hexrgba": "1.0.1",
+    "postcss-import": "11.1.0",
+    "postcss-mixins": "6.2.0",
+    "postcss-nested": "3.0.0",
+    "postcss-simple-vars": "4.1.0",
+    "webpack": "4.8.2"
+  },
+  "dependencies": {
+    "bourbon": "^5.1.0",
+    "jquery": "^3.4.1",
+    "normalize.css": "8.0.0",
+    "slick-carousel": "^1.8.1"
+  }
+}

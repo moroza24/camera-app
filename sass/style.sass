@@ -1,0 +1,80 @@
+@import 'normalize'
+@import 'checkbox'
+@import 'camera'
+
+/*! style.sass v1.0.1 | Alex Moroz */
+*, *::before, *::after
+    box-sizing: border-box
+
+html 
+    scroll-behavior: smooth
+
+body
+    background: #0d377e
+    background: -moz-linear-gradient(top,  #0d377e 0%, #08194f 100%)
+    background: -webkit-linear-gradient(top,  #0d377e 0%,#08194f 100%)
+    background: linear-gradient(to bottom,  #0d377e 0%,#08194f 100%)
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d377e', endColorstr='#08194f',GradientType=0 )
+    font-family: 'Miriam Libre', sans-serif
+
+
+.container
+    max-width: 360px
+    margin: 0 auto
+    #acceptens
+        display: flex
+        flex-flow: column wrap
+        align-items: center
+        padding-top: 150px
+        img
+            max-width: 250px
+        .title
+            color: #fff
+        .enter
+            color: #ffffff
+            background: #0082ca
+            border: 0
+            padding: 5px 40px        
+            font-size: 20px
+            border-radius: 7px
+            margin-top: 30px
+        #cbx-lable
+            transition: all .3s ease-in-out
+    #select-input
+        display: flex
+        flex-flow: column wrap
+        align-items: center
+        transition: all .3s ease-in-out
+        padding-top: 120px
+        input[type='file']
+            display: none
+        .in-button
+            cursor: pointer
+            background: #fff
+            border-radius: 20px
+            padding: 10px
+            padding-top: 25px
+            margin: 10px
+            display: flex
+            flex-flow: column wrap
+            align-items: center
+            width: 300px
+            p
+                font-size: 18px
+            img
+                height: 80px
+.hidden
+    display: none !important
+.worning
+    animation-name: worning_flicker
+    animation-duration: 1000ms
+    animation-iteration-count: 3
+    animation-timing-function: ease-in-out
+
+@keyframes worning_flicker 
+  0% 
+      color: #fff
+  50% 
+      color: red
+  100% 
+      color: #fff

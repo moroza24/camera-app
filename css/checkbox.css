@@ -1,0 +1,61 @@
+.check {
+  cursor: pointer;
+  position: relative;
+  margin: auto;
+  width: 18px;
+  height: 18px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+  .check:before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(34, 50, 84, 0.03);
+    opacity: 0;
+    -webkit-transition: opacity .2s ease;
+    -o-transition: opacity .2s ease;
+    transition: opacity .2s ease; }
+  .check svg {
+    position: relative;
+    z-index: 1;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #C8CCD4;
+    stroke-width: 1.5;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease; }
+    .check svg path {
+      stroke-dasharray: 60;
+      stroke-dashoffset: 0; }
+    .check svg polyline {
+      stroke-dasharray: 22;
+      stroke-dashoffset: 66; }
+  .check:hover:before {
+    opacity: 1; }
+  .check:hover svg {
+    stroke: #4285F4; }
+
+#cbx:checked + .check svg {
+  stroke: #4285F4; }
+  #cbx:checked + .check svg path {
+    stroke-dashoffset: 60;
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear; }
+  #cbx:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    -webkit-transition-delay: .15s;
+    -o-transition-delay: .15s;
+    transition-delay: .15s; }
