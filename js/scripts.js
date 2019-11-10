@@ -56,8 +56,8 @@ $(document).ready(() => {
             'eng+heb',
             { logger: m => console.log(m.progress) }
         ).then(({ data: { text } }) => {
+            $('#res-text').text(text);
             console.log(text);
-            alert(text);
         })
     }
 
