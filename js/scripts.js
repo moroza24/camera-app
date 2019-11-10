@@ -23,4 +23,27 @@ $(document).ready(() => {
         console.log(e.currentTarget.dataset);
         $(`#${e.currentTarget.dataset.target}`).trigger('click');
     })
+
+    const cameraInput = document.getElementById('camera-input');
+    const fileInput = document.getElementById('file-input');
+
+    cameraInput.addEventListener('change', (e) => doSomethingWithFiles(e.target.files));
+  fileInput.addEventListener('change', (e) => doSomethingWithFiles(e.target.files));
+
+    const output = document.getElementById('output');
+
+    function doSomethingWithFiles(fileList) {
+        let file = null;
+
+        for (let i = 0; i < fileList.length; i++) {
+        if (fileList[i].type.match(/^image\//)) {
+            file = fileList[i];
+            break;
+        }
+        }
+
+        if (file !== null) {
+        output.src = URL.createObjectURL(file);
+        }
+    }
 });
