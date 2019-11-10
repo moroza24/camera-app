@@ -1,0 +1,223 @@
+[
+    {
+        "fullname" : "Pall Mall Black 2 Clicks",
+        "fullname_heb" : "פאל מאל הוואנה",
+        "brand" : "Pall Mall",
+        "recomanded_price" : 27,
+        "retail_price" : 18.34,
+        "old_image_url" : "./img/new packes/pall mall black 2 clicks.png"
+    },
+    {
+        "fullname" : "Pall Mall Black 1 Click Demi",
+        "fullname_heb" : "פאל מאל קפסולה דמי סלימוס",
+        "brand" : "Pall Mall",
+        "recomanded_price" : 23,
+        "retail_price" : 21.53,
+        "old_image_url" : "./img/new packes/pall mall black 1 click demi.png"
+    },
+    {
+        "fullname" : "Pall Mall Blue - Flow Filter Long",
+        "fullname_heb" : "פאל מאל כחול ארוך סטרים",
+        "brand" : "Pall Mall",
+        "recomanded_price" : 27,
+        "retail_price" : 21.53,
+        "old_image_url" : "./img/new packes/pall mall blue flow filter long.png"
+    },
+    {
+        "fullname" : "Pall Mall Blue - Flow Filter",
+        "fullname_heb" : "פאל מאל כחול סטרים",
+        "brand" : "Pall Mall",
+        "recomanded_price" : 27,
+        "retail_price" : 21.53,
+        "old_image_url" : "./img/new packes/pall mall blue flow filter.png"
+    },
+    {
+        "fullname" : "Pall Mall Blue - Flow Filter Demi",
+        "fullname_heb" : "פאל מאל כחול דמי סלימם",
+        "brand" : "Pall Mall",
+        "recomanded_price" : 23,
+        "retail_price" : 18.34,
+        "old_image_url" : "./img/new packes/pall mall blue flow filter demi.png"
+    },
+    {
+        "fullname" : "Pall Mall Silver - Flow Filter Demi",
+        "fullname_heb" : "פאל מאל סילבר דמי סלימם",
+        "brand" : "Pall Mall",
+        "recomanded_price" : 23,
+        "retail_price" : 18.34,
+        "old_image_url" : "./img/new packes/pall mall silver flow filter demi.png"
+    },
+    {
+        "fullname" : "Pall Mall Blue Super Slim",
+        "fullname_heb" : "פאל מאל סופר סלים כחול",
+        "brand" : "Pall Mall",
+        "recomanded_price" : 27,
+        "retail_price" : 21.53,
+        "old_image_url" : "./img/new packes/pall mall blue super slim.png"
+    },
+    {
+        "fullname" : "Pall Mall Violet Super Slim",
+        "fullname_heb" : "פאל מאל סופר סלים ויולט",
+        "brand" : "Pall Mall",
+        "recomanded_price" : 27,
+        "retail_price" : 21.53,
+        "old_image_url" : "./img/new packes/pall mall violet super slim.png"
+    },
+    {
+        "fullname" : "Pall Mall Red",
+        "fullname_heb" : "פאל מאל אדום קצר",
+        "brand" : "Pall Mall",
+        "recomanded_price" : 27,
+        "retail_price" : 21.53,
+        "old_image_url" : "./img/new packes/pall mall red.png"
+    },
+    {
+        "fullname" : "Pall Mall Red Long",
+        "fullname_heb" : "פאל מאל אדום ארוך",
+        "brand" : "Pall Mall",
+        "recomanded_price" : 27,
+        "retail_price" : 21.53,
+        "old_image_url" : "./img/new packes/pall mall red long.png"
+    },
+    {
+        "fullname" : "Pall Mall Blue",
+        "fullname_heb" : "פאל מאל כחול קצר",
+        "brand" : "Pall Mall",
+        "recomanded_price" : 27,
+        "retail_price" : 21.53,
+        "old_image_url" : "./img/new packes/pall mall blue.png"
+    },
+    {
+        "fullname" : "Pall Mall Blue Long",
+        "fullname_heb" : "פאל מאל כחול ארוך",
+        "brand" : "Pall Mall",
+        "recomanded_price" : 27,
+        "retail_price" : 21.53,
+        "old_image_url" : "./img/new packes/pall mall blue long.png"
+    },
+    {
+        "fullname" : "Pall Mall Grenn - Menthol",
+        "fullname_heb" : "פאל מאל מנטול",
+        "brand" : "Pall Mall",
+        "recomanded_price" : 27,
+        "retail_price" : 21.53,
+        "old_image_url" : "./img/new packes/pall mall green menthol.png"
+    },
+
+    {
+        "fullname" : "Pall Mall Red - 30gr for rolling",
+        "fullname_heb" : "פאל מאל אדום טבק - 30 ג'",
+        "brand" : "Pall Mall",
+        "recomanded_price" : 55,
+        "retail_price" : 43.13,
+        "old_image_url" : "./img/new packes/pall mall red 30gr for rolling.png"
+    },
+    {
+        "fullname" : "Pall Mall Blue - 30gr for rolling",
+        "fullname_heb" : "פאל מאל כחול טבק - 30 ג'",
+        "brand" : "Pall Mall",
+        "recomanded_price" : 55,
+        "retail_price" : 43.13,
+        "old_image_url" : "./img/new packes/pall mall blue 30gr for rolling.png"
+    },
+    {
+        "fullname" : "Golden Virginia Green - 40gr",
+        "fullname_heb" : "גולדן וירג'יניה ירוק - 40 ג'",
+        "brand" : "Golden Virginia",
+        "recomanded_price" : 78,
+        "retail_price" : 62.75,
+        "old_image_url" : "./img/new packes/golden verginia green 40gr.png"
+    },
+    {
+        "fullname" : "Golden Virginia Green - 30gr",
+        "fullname_heb" : "גולדן וירג'יניה ירוק - 30 ג'",
+        "brand" : "Golden Virginia",
+        "recomanded_price" : 60,
+        "retail_price" : 47.06,
+        "old_image_url" : "./img/new packes/golden verginia green 30gr.png"
+    },
+    {
+        "fullname" : "Golden Virginia Yellow - 30gr",
+        "fullname_heb" : "גולדן וירג'יניה צהוב - 30 ג'",
+        "brand" : "Golden Virginia",
+        "recomanded_price" : 60,
+        "retail_price" : 47.06,
+        "old_image_url" : "./img/new packes/golden verginia yellow 30gr.png"
+    },
+    {
+        "fullname" : "Golden Virginia White - 30gr",
+        "fullname_heb" : "גולדן וירג'יניה לבן - 30 ג'",
+        "brand" : "Golden Virginia",
+        "recomanded_price" : 60,
+        "retail_price" : 47.06,
+        "old_image_url" : "./img/new packes/golden verginia white 30gr.png"
+    },
+
+    {
+        "fullname" : "Vogue Blue",
+        "fullname_heb" : "ווג כחול",
+        "brand" : "Vogue",
+        "recomanded_price" : 35,
+        "retail_price" : 27.93,
+        "old_image_url" : "./img/new packes/vogue blue.png"
+    },
+    {
+        "fullname" : "Vogue Green - Menthol",
+        "fullname_heb" : "ווג מנטה",
+        "brand" : "Vogue",
+        "recomanded_price" : 35,
+        "retail_price" : 27.93,
+        "old_image_url" : "./img/new packes/vogue green.png"
+    },
+    {
+        "fullname" : "Vogue Violet",
+        "fullname_heb" : "ווג לילך",
+        "brand" : "Vogue",
+        "recomanded_price" : 35,
+        "retail_price" : 27.93,
+        "old_image_url" : "./img/new packes/vogue violet.png"
+    },
+
+    {
+        "fullname" : "Rothmans of London Blue Long",
+        "fullname_heb" : "רוטמנס כחול ארוך",
+        "brand" : "Rothmans of London",
+        "recomanded_price" : 25,
+        "retail_price" : 19.98,
+        "old_image_url" : "./img/new packes/rothmans of london blue long.png"
+    },
+    {
+        "fullname" : "Rothmans of London Blue",
+        "fullname_heb" : "רוטמנס כחול",
+        "brand" : "Rothmans of London",
+        "recomanded_price" : 25,
+        "retail_price" : 19.98,
+        "old_image_url" : "./img/new packes/rothmans of london blue.png"
+    },
+
+    {
+        "fullname" : "Lucky Strike Red",
+        "fullname_heb" : "לאקי סטרייק אדום",
+        "brand" : "Lucky Strike",
+        "recomanded_price" : 29,
+        "retail_price" : 23.13,
+        "old_image_url" : "./img/new packes/lucky strike red.png"
+    },
+
+    {
+        "fullname" : "Kent Classic",
+        "fullname_heb" : "קנט ארוך",
+        "brand" : "Kent",
+        "recomanded_price" : 34,
+        "retail_price" : 27.16,
+        "old_image_url" : "./img/new packes/kent classic long.png"
+    },
+    {
+        "fullname" : "Kent Classic",
+        "fullname_heb" : "קנט קצר",
+        "brand" : "Kent",
+        "recomanded_price" : 34,
+        "retail_price" : 27.16,
+        "old_image_url" : "./img/new packes/kent classic.png"
+    }
+]
