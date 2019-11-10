@@ -341,6 +341,9 @@ body {
       .container #select-input .in-button img {
         height: 80px; }
 
+#output {
+  width: 350px; }
+
 .hidden {
   display: none !important; }
 
