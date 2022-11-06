@@ -16,7 +16,7 @@
     "autoprefixer": "8.4.1",
     "babel-loader": "^8.0.0-beta",
     "browser-sync": "^2.26.5",
-    "gulp": "3.9.1",
+    "gulp": "4.0.2",
     "gulp-coffee": "latest",
     "gulp-concat": "latest",
     "gulp-connect": "latest",
